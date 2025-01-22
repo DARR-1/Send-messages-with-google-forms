@@ -4,8 +4,8 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 import time
 
-CHROME_DATA_DIR = r"C:\Users\diego\AppData\Local\Google\Chrome\User Data"
-PROFILE_NAME = "Profile 1"
+CHROME_DATA_DIR = r"CHROME_DATA_DIR"
+PROFILE_NAME = "PROFILE_NAME"
 
 
 def send(infos):

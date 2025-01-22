@@ -19,9 +19,9 @@ credentials = Credentials.from_service_account_file(KEY, scopes=SCOPES)
 gc = gspread.authorize(credentials)
 
 # Abre la hoja de cálculo por su nombre
-spreadsheet = gc.open("Registro Future Makers 2025 (Respuestas)")
+spreadsheet = gc.open("Name of the spreadsheet")
 
-worksheet = spreadsheet.worksheet("Respuestas de formulario 1")
+worksheet = spreadsheet.worksheet("Name of the worksheet")
 
 rows = worksheet.get_all_values()
 
